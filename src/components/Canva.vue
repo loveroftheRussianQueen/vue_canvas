@@ -6,6 +6,9 @@
         <input type="text" placeholder="Сторона квадрата" v-model="configRect.height"/>
         <label>Изменить ширину квадрата</label>
         <input type="text" placeholder="Сторона квадрата" v-model="configRect.width"/>
+        <label>Изменить координаты квадрата</label>
+        <input type="text" placeholder="Сторона квадрата" v-model="configRect.x"/>
+        <input type="text" placeholder="Сторона квадрата" v-model="configRect.y"/>
     </div>
     <v-stage :config="configKonva">
     <v-layer>
