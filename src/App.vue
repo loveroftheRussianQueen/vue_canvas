@@ -1,11 +1,11 @@
 <script setup>
-import Canva from './components/Canva.vue';
+import Canva from './components/Canva.vue'
 </script>
 
 <template>
-    <div>
-      <Canva/>
-    </div>
+  <div>
+    <Canva />
+  </div>
 </template>
 
 <style scoped>
